@@ -1,0 +1,177 @@
+* {
+    font-family: 'Poppins',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
+
+.certificate-container {
+    display: flex;
+    margin-top: 1%;
+    border: 5px solid rgb(115, 107, 170);
+    background-color: rgb(254, 242, 239);
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    background-image: url('certificate_sidebar.png');
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-section {
+    position: relative;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+}
+
+.cerificate-heading {
+    color: #f25e8d;
+    line-height: 1;
+    font-size: 4vw;
+}
+
+.cerificate-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.digital-guruji-logo {
+    height: 8vw;
+    /* aspect-ratio: 3/2; */
+}
+
+.signature {
+    height: 3vw;
+    width: auto;
+}
+
+.cerificate-id {
+    color: rgb(115, 107, 170);
+    font-size: large;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+
+.achiever-name {
+    color: #f25e8d;
+
+    font-size: 2.5vw;
+    padding: 5px 0px;
+}
+
+.certificate-dates {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.certificate-dates p {
+    font-size: 1.2vw;
+}
+
+.certificate-content p {
+    color: rgb(115, 107, 170);
+    font-weight: 500;
+}
+
+.certificate-content h5 {
+    color: #f25e8d;
+    font-size: large;
+    font-weight: bold;
+}
+
+.text-bold {
+    font-weight: 700 !important;
+}
+
+.guruji-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.guruji-links p a {
+    color: #f25e8d;
+    font-size: 1vw;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media screen and (max-width:430px) {
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .right-section {
+        padding: 15px 15px;
+    }
+
+    .cerificate-heading {
+        font-size: 6vw;
+
+    }
+
+    .digital-guruji-logo {
+        height: 14vw;
+    }
+
+    .signature {
+        height: 6vw;
+        margin-bottom: 10px;
+    }
+
+    .cerificate-id {
+        font-size: 2.6vw;
+    }
+
+    .certificate-content {
+        margin-top: -15px;
+    }
+
+    .certificate-content p {
+        font-size: 2.7vw;
+    }
+
+    .achiever-name {
+        font-size: 4vw;
+    }
+
+    .certificate-content h5 {
+        font-size: 2.5vw;
+    }
+
+    .certificate-dates {
+        width: 100%;
+    }
+
+    .certificate-dates p {
+        font-size: 2.2vw;
+    }
+
+    .guruji-links p a {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .guruji-links {
+        display: none;
+    }
+}
